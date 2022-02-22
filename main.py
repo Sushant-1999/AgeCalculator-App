@@ -23,7 +23,7 @@ class AgeCalculator(App):
         self.window.cols = 1
         self.window.size_hint = (0.6, 0.7)
         self.window.pos_hint = {"center_x": 0.5, "center_y": 0.5 }
-        #self.window.add_widget(Image(source("Calculator.png")))
+        self.window.add_widget(Image(source="Calculator.png"))
 
         self.ageRequest = Label(
             text = "Enter your date of birth...", 
